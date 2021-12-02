@@ -301,13 +301,15 @@ section .title::after{
 }
 .teams i:hover{
     color: white;
+    transform: scale(1.05);
+    transition: all 0.3 ease;
 
 }
 .teams{
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner2.jpg") no-repeat center;
 }
-.teams:hover{
-    background: ;
+.teams img:hover{
+    color: green;
 }
 .services .serv-content .card:hover i{
     color: #fff;
@@ -378,13 +380,13 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 10%;
+    width: 60%;
 }
 .skills-content .right .css::before{
-    width: 10%;
+    width: 40%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 40%;
 }
 .skills-content .right .php::before{
     width: 50%;
